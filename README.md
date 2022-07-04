@@ -8,3 +8,9 @@
   -  new - новинка
 # Продукти. сторінка продукту
 ```div.catalog-item ``` ідентичний тому що на сторінці каталог
+# Попапи
+*мають бути на кожній сторінці:
+- div.search-mobile-form - пошук
+- div.question_popup_form
+- div.cart-popup
+- div.common_popup
