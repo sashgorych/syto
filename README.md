@@ -11,6 +11,6 @@
 # Попапи
 *мають бути на кожній сторінці:
 - div.search-mobile-form - пошук
-- div.question_popup_form
-- div.cart-popup
-- div.common_popup
+- div.question_popup_form - форма задати питання
+- div.cart-popup - форма корзини
+- div.common_popup - попап для інших цілей
