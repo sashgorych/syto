@@ -13,12 +13,14 @@
 - div.search-mobile-form - пошук
 - div.question_popup_form - форма задати питання
 - div.cart-popup - форма корзини
+- div.notification_popup - великий попап для відображення повідомлень
+- div.auth_popup - попап авторизації
 - div.common_popup - попап для інших цілей
-- div.notification_popup
-- div.auth_popup
 *
 Функції:
-showNotification(content:html) показати інформаційний попап (зникає через 2сек)
-openPopup(popupId:string, content:html) показати попап з контентом
+- showNotification(content:html) показати стилізований інформаційний попап зі змінним контентом (зникає через 2сек)
+- showSmallMessage(msg:string, status:[error, success]) показати маленький попап про успіх чи помилку з деяким текстом
+- showAddToCartPopup(productName:string) показати повідомлення про додавання товару в кошик
+- openPopup(popupId:string, content:html) показати простий попап з контентом 
 # Авторизація
 Значок юзера в шапці ```<div class='user'> ``` якщо залогінений то в ```<a>``` вставити посилання на кабінет, якщо не залогінений то до ```<a>``` додати клас ''' go-auth '''
