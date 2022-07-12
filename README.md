@@ -14,7 +14,9 @@
 - div.question_popup_form - форма задати питання
 - div.cart-popup - форма корзини
 - div.common_popup - попап для інших цілей
-- div
+- div.notification_popup
+- div.auth_popup
+*
 Функції:
 showNotification(content:html) показати інформаційний попап (зникає через 2сек)
 openPopup(popupId:string, content:html) показати попап з контентом
