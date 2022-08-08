@@ -58,10 +58,11 @@ cabinet.html
 - div.common_popup - попап для інших цілей
 *
 Функції:
-- showNotification(content:string with html) показати стилізований інформаційний попап зі змінним контентом (зникає через 2сек)
-- showSmallMessage(msg:string, status:[error, success]) показати маленький попап про успіх чи помилку з деяким текстом
+- showNotification(content,time,callback) показати стилізований інформаційний попап зі змінним контентом (зникає через 2сек)
+- showSmallMessage(content,status,time.callback) показати маленький попап про успіх чи помилку з деяким текстом
 - showAddToCartPopup(productName:string) показати повідомлення про додавання товару в кошик
 - openPopup(popupId:string, content:string with html) показати простий попап з контентом 
+
 # Відновлення паролю
 Після натислення кнопки 'відправити' - показати юзеру попап про успіх:  
 ```showNotification(`<p>На вказаний Email відправлено лист з паролем</p>`) ```
