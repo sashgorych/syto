@@ -62,6 +62,7 @@ cabinet.html
 - showSmallMessage(content,status,time.callback) показати маленький попап про успіх чи помилку з деяким текстом
 - showAddToCartPopup(productName:string) показати повідомлення про додавання товару в кошик
 - openPopup(popupId:string, content:string with html) показати простий попап з контентом 
+- showConfirm(msg,yesCallback,noCallback,title,trueBtnText, falseBtnText)
 
 # Відновлення паролю
 Після натислення кнопки 'відправити' - показати юзеру попап про успіх:  
